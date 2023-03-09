@@ -1,5 +1,5 @@
 <template>
-  <TheHeader msg="ТЕСТ"/>
+  <TheHeader/>
 </template>
 
 <script>
@@ -16,11 +16,13 @@ export default {
 *{
   margin: 0;
 }
+a{
+  text-decoration: none;
+}
 #app {
   /* font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
-  text-align: center;
   color: black;
   margin: 0;
 }
