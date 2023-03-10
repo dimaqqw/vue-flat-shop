@@ -2,21 +2,24 @@
   <TheHeader/>
   <TheBlock1/>
   <TheBlock2/>
+  <TheBlock3/>
   <TheFooter/>
 </template>
 
 <script>
 import TheHeader from './components/Header.vue'
 import TheBlock1 from './components/Block1.vue'
-import TheFooter from './components/Footer.vue'
 import TheBlock2 from './components/Block2.vue'
+import TheBlock3 from './components/Block3.vue'
+import TheFooter from './components/Footer.vue'
 export default {
   name: 'App',
   components: {
     TheHeader,
-    TheFooter,
     TheBlock1,
-    TheBlock2
+    TheBlock2,
+    TheBlock3,
+    TheFooter
   }
 }
 </script>
