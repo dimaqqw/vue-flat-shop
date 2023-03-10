@@ -70,8 +70,7 @@ export default {
         height: 5px;
     }
     a{
-        color: grey;
-        /* padding: 19.5px 46.5px 24.5px; */
+        color: #475658;
         display: flex;
         width: 400px;
         height: 72px;
@@ -79,5 +78,12 @@ export default {
         justify-content: center;
         align-items: center;
         border-radius: 10px;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 53px;
+        transition: 0.2s;
+    }
+    a:hover{
+        font-size: 30px;
     }
 </style>

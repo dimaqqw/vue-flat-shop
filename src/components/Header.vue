@@ -2,14 +2,16 @@
     <div class="header">
         <div class="header-container">
             <div class="logo-container">
-                <img width="83" height="91" class="logo" src="../../public/Group_257.svg" alt="Лого">
+                <a href="">
+                    <img width="83" height="91" class="logo" src="../../public/Group_257.svg" alt="Лого">
+                </a>
             </div>
             <div class="refs">
-                <a href="">Как продать квартиру</a>
-                <a href="">Истории клиентов</a>
+                <a href="">{{ref1}}</a>
+                <a href="">{{ref2}}</a>
                 <a href="">
                     <img width="28" height="28" class="call" src="../../public/Vector.svg" alt="Трубка">
-                    + 7 495 783 87 15
+                    {{ number }}
                 </a>
                 <a class="recall" href="">Перезвоните мне</a>
             </div>
@@ -21,7 +23,9 @@
     export default {
         name: "TheHeader",
         props: {
-            
+            ref1: String,
+            ref2: String,
+            number: String
         }
     }
 </script>
@@ -54,7 +58,7 @@
     font-style: normal; 
     font-weight: normal; 
     } 
-    .refs a{
+    a{
         color: #475658;
         display: flex;
         align-items: center;
@@ -71,6 +75,11 @@
         border-radius: 10px;
         height: 56px;   
         padding: 10px 55px 13px 55px;
+        transition: 0.2s;
+    }
+    .refs .recall:hover{
+        color: #D44B4B;
+        border: 1px solid #D44B4B;
     }
     
 </style>
