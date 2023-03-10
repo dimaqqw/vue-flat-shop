@@ -1,16 +1,19 @@
 <template>
   <TheHeader/>
+  <TheBlock1/>
   <TheFooter/>
 </template>
 
 <script>
 import TheHeader from './components/Header.vue'
+import TheBlock1 from './components/Block1.vue'
 import TheFooter from './components/Footer.vue'
 export default {
   name: 'App',
   components: {
     TheHeader,
-    TheFooter
+    TheFooter,
+    TheBlock1
   }
 }
 </script>
