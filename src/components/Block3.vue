@@ -9,9 +9,7 @@
                 <p>Время прохождения опроса <b>3 минуты</b></p>
                 <div class="start">
                     <h3>Хочу безопасно и легко<br/>продать или купить квартиру</h3>
-                    <div class="start-button">
-                        Начать
-                    </div>
+                    <ButtonBlock3/>
                 </div>
                 <div class="list">
                     <p>После завершения опроса вы получите PDF<br/>файл c содержащий:</p>
@@ -27,8 +25,12 @@
 </template>
 
 <script>
+    import ButtonBlock3 from './ButtonBlock3.vue'
     export default {
         name: "TheBlock3",
+        components: {
+            ButtonBlock3
+        },
         props: {
             
         }
@@ -119,25 +121,6 @@ b{
         flex-direction: column;
         justify-content: space-evenly;
         margin-left: 70px;
-    }
-    .start-button{
-        width: 460px;
-        height: 72px;
-        background: #D44B4B;
-        box-shadow: 2px 2px 5px #F0F0F0;
-        border-radius: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 30px;
-
-        font-family: LatoFont;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 23px;
-        line-height: 28px;
-        text-align: center;
-        color: #FFFFFF;
     }
     .rightside ol{
         margin-top: 20px;

@@ -14,6 +14,7 @@ import TheBlock1 from './components/Block1.vue'
 import TheBlock2 from './components/Block2.vue'
 import TheBlock3 from './components/Block3.vue'
 import TheFooter from './components/Footer.vue'
+
 export default {
   name: 'App',
   components: {
@@ -24,6 +25,7 @@ export default {
     TheFooter
   }
 }
+
 </script>
 
 <style>
