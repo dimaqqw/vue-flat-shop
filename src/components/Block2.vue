@@ -24,4 +24,10 @@ export default {
         margin-top: 132px;
         margin-bottom: 119px;
     }
+    img{
+        transition: 0.3s;
+    }
+    img:hover{
+        transform: scale(1.2);
+    }
 </style>

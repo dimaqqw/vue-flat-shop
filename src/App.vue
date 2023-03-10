@@ -1,5 +1,7 @@
 <template>
-  <TheHeader/>
+  <TheHeader ref1="Как продать квартиру"
+             ref2="Истории клиентов"
+             number="+7 495 835 47 11"/>
   <TheBlock1/>
   <TheBlock2/>
   <TheBlock3/>
@@ -30,6 +32,10 @@ export default {
 }
 a{
   text-decoration: none;
+  transition: 0.2s;
+}
+a:hover{
+  color: #D44B4B;
 }
 #app {
   /* font-family: Avenir, Helvetica, Arial, sans-serif;
