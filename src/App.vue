@@ -1,6 +1,7 @@
 <template>
   <TheHeader/>
   <TheBlock1/>
+  <TheBlock2/>
   <TheFooter/>
 </template>
 
@@ -8,12 +9,14 @@
 import TheHeader from './components/Header.vue'
 import TheBlock1 from './components/Block1.vue'
 import TheFooter from './components/Footer.vue'
+import TheBlock2 from './components/Block2.vue'
 export default {
   name: 'App',
   components: {
     TheHeader,
     TheFooter,
-    TheBlock1
+    TheBlock1,
+    TheBlock2
   }
 }
 </script>
